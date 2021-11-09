@@ -82,10 +82,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    body {
-        @include fz(18);
-    }
-
     .menu {
         display: none;
     }
@@ -105,7 +101,6 @@
     .search_box {
         .search_input {
             width: 88%;
-            @include fz(18);
         }
 
         .search_btn {
@@ -201,7 +196,8 @@
         }
 
         &_icon {
-            @include fz(30);
+            font-size: 30px;
+            ;
         }
     }
 }
@@ -209,11 +205,7 @@
 @media screen and (max-width: 470px) {
     .first_screen {
         .main_title {
-            @include fz(38);
-        }
-
-        .tagline {
-            @include fz(16);
+            font-size: 34px;
         }
     }
 

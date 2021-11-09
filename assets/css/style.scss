@@ -10,7 +10,6 @@
 @import "soc_icons";
 @import "vars";
 
-
 @mixin fz($rem) {
     font-size: ($rem/$base_size) + rem;
 }
@@ -62,7 +61,7 @@ body {
     -webkit-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
-    z-index: 201;
+    z-index: 1001;
 
     &__top {
         display: -webkit-box;
@@ -98,7 +97,7 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
-    z-index: 200;
+    z-index: 1000;
 }
 
 .open {
