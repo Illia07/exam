@@ -10,6 +10,7 @@
 @import "soc_icons";
 @import "vars";
 
+
 @mixin fz($rem) {
     font-size: ($rem/$base_size) + rem;
 }
@@ -100,8 +101,14 @@ body {
     z-index: 1000;
 }
 
-#mobile-menu-shadow {
-    display: block;
+.open {
+    .mmb {
+        left: 0;
+    }
+
+    #mobile-menu-shadow {
+        display: block;
+    }
 }
 
 .mob-menu {
