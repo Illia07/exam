@@ -100,14 +100,8 @@ body {
     z-index: 1000;
 }
 
-.open {
-    .mmb {
-        left: 0;
-    }
-
-    #mobile-menu-shadow {
-        display: block;
-    }
+#mobile-menu-shadow {
+    display: block;
 }
 
 .mob-menu {

@@ -219,10 +219,7 @@ body {
   z-index: 1000;
 }
 
-.open .mmb {
-  left: 0;
-}
-.open #mobile-menu-shadow {
+#mobile-menu-shadow {
   display: block;
 }
 
