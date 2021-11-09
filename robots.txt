@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://illia07.github.io/exam/sitemap.xml
+Host: https://illia07.github.io/exam/
