@@ -20,11 +20,6 @@
     padding: 25px 20px 20px 30px;
   }
 }
-@media screen and (max-width: 823) {
-  #to-top {
-    width: 12%;
-  }
-}
 @media screen and (max-width: 800px) {
   .why-choose-us {
     padding: 60px 0 70px;
@@ -58,20 +53,12 @@
     align-self: flex-start;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
   .menu {
     display: none;
   }
 
   .hamburger {
-    display: block;
-  }
-
-  #to-top {
-    display: none;
-  }
-
-  #to-top-mobile {
     display: block;
   }
 
@@ -87,37 +74,6 @@
 
   .text-block_title {
     margin-bottom: 36px;
-  }
-
-  .steps {
-    padding: 60px 0 70px;
-  }
-  .steps_list {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-  }
-  .steps_list::before {
-    display: none;
-  }
-  .steps_item:first-of-type {
-    margin-left: 15%;
-  }
-  .steps_item:last-of-type {
-    margin-right: 0;
-    margin-left: 15%;
-  }
-  .steps_item-middle {
-    -ms-flex-item-align: end;
-    align-self: flex-end;
-    margin-right: 15%;
   }
 
   .present,

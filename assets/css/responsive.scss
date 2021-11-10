@@ -36,11 +36,6 @@
     }
 }
 
-@media screen and (max-width: 823) {
-    #to-top {
-        width: 12%;
-    }
-}
 
 @media screen and (max-width: 800px) {
     .why-choose-us {
@@ -81,20 +76,12 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
     .menu {
         display: none;
     }
 
     .hamburger {
-        display: block;
-    }
-
-    #to-top {
-        display: none;
-    }
-
-    #to-top-mobile {
         display: block;
     }
 
@@ -115,44 +102,6 @@
     .text-block {
         &_title {
             margin-bottom: 36px;
-        }
-    }
-
-    .steps {
-        padding: 60px 0 70px;
-
-        &_list {
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            -webkit-box-pack: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            -webkit-box-align: start;
-            -ms-flex-align: start;
-            align-items: flex-start;
-
-            &::before {
-                display: none;
-            }
-        }
-
-        &_item {
-            &:first-of-type {
-                margin-left: 15%;
-            }
-
-            &:last-of-type {
-                margin-right: 0;
-                margin-left: 15%;
-            }
-
-            &-middle {
-                -ms-flex-item-align: end;
-                align-self: flex-end;
-                margin-right: 15%;
-            }
         }
     }
 
